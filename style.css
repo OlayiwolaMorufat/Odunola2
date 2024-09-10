@@ -1,0 +1,36 @@
+.heading1 {
+    text-align: center;
+}
+
+.heading2 {
+    color: yellow;
+    background-color: green;
+    text-align: center;
+}
+.paragraph {
+    text-align: center;
+    /* border: 2px; */
+    border-style: solid;
+    color: red;
+    border-color: black;
+    padding: 10px;
+}
+.para {
+    background-color: orange;
+    border-style: solid;
+    color: red;
+    border-color: blue;
+    padding: 15px;
+    /* border: 5px; */
+    font-size: 24px;
+}
+.container {
+    border: 2px solid red;
+    /* height: 100px; */
+    background-color: green;
+    /* width: 100px; */
+    border-radius: 6px;
+    padding: 10px;
+    color: white;
+}
+.container p:last-child{color: red; font-size: larger;}
